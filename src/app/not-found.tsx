@@ -14,13 +14,20 @@ function NotFound() {
 
       {/* Main content */}
       <div className="max-w-md mx-auto">
-        <h2 className="text-3xl font-bold mb-6 text-foreground animate-pulse">Oops! Page Not Found</h2>
-        <p className="text-muted-foreground mb-8 text-lg">
-          The page you're looking for doesn't exist or might have been moved.
+        <h2 className="text-3xl font-bold mb-6 text-foreground animate-pulse">
+          Oops! Page Not Found
+        </h2>
+        <p className="text-muted-foreground">
+          The page you&apos;re looking for doesn&apos;t exist or might have been
+          moved.
         </p>
-        
+
         {/* Button with hover animation */}
-        <Button asChild size="lg" className="rounded-full px-8 py-4 text-lg bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 transition-all duration-300 hover:scale-105">
+        <Button
+          asChild
+          size="lg"
+          className="rounded-full px-8 py-4 text-lg bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 transition-all duration-300 hover:scale-105"
+        >
           <Link href="/">Return to Home</Link>
         </Button>
       </div>
