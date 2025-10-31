@@ -45,7 +45,7 @@ export async function createPost(formData: FormData) {
       };
     }
 
-    const [newPost] = await db
+    await db
       .insert(posts)
       .values({
         title,
